@@ -7,7 +7,7 @@ const setGridButton = document.querySelector("#set-grid");
 setGridButton.addEventListener('click', setGridSize);
 
 const divs = [];
-generateGrid(10);
+generateGrid(16);
 
 function generateGrid(size) {
     if (size <= 0) {
@@ -29,7 +29,7 @@ function generateGrid(size) {
             const newDiv = document.createElement("div");
             newDiv.classList.add("grid-box");
             container.appendChild(newDiv);
-            newDiv.addEventListener('click', onBoxHover);
+            newDiv.addEventListener('mouseenter', onBoxHover);
             divs.push(newDiv);
         }
     }
