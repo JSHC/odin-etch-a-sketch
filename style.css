@@ -7,9 +7,15 @@ body {
 
 .grid-container {
     border: 1px solid #222;
+    width: 800px;
+    height: 800px;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
 }
 
 .grid-box {
-    width: 200px;
-    height: 200px;
+    box-sizing: border-box;
+    background-color: #eee;
+    border: 1px solid #666;
 }
