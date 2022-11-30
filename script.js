@@ -1,4 +1,6 @@
 const container = document.querySelector(".grid-container");
+const clearButton = document.querySelector("#clear");
+clearButton.addEventListener('click', clearBoxes);
 const divs = [];
 for (let i = 0; i < 16; i++) {
     for (let j = 0; j < 16; j++) {

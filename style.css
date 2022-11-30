@@ -30,7 +30,7 @@ h2 {
 }
 
 .button-bar {
-    flex: auto;
+
     display: flex;
     margin-bottom: 10px;
     justify-content: flex-start;
