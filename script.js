@@ -51,12 +51,16 @@ function clearBoxes() {
 }
 
 function setGridSize() {
-    const newSize = Number(
+    let newSize = Number(
         prompt("Enter number of squares per side (limit: 100):")
         );
     
     if (Number.isNaN(newSize)) {
         return;
+    }
+
+    if (newSize > 100) {
+        newSize = 100;
     }
 
     generateGrid(newSize);
