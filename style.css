@@ -6,11 +6,11 @@ body {
 }
 
 h2 {
-    margin: 5px;
+    margin: 10px;
 }
 
 .grid-container {
-    flex: 0 1 auto;
+    flex: auto;
     border: 1px solid #222;
     width: 800px;
     height: 800px;
@@ -30,7 +30,6 @@ h2 {
 }
 
 .button-bar {
-
     display: flex;
     margin-bottom: 10px;
     justify-content: flex-start;
@@ -40,4 +39,5 @@ button {
     background-color: #eee;
     border: none;
     padding: 10px 15px;
+    margin: 0px 5px;
 }
