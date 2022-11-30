@@ -5,7 +5,12 @@ body {
     flex-direction: column;
 }
 
+h2 {
+    margin: 5px;
+}
+
 .grid-container {
+    flex: 0 1 auto;
     border: 1px solid #222;
     width: 800px;
     height: 800px;
@@ -16,6 +21,23 @@ body {
 
 .grid-box {
     box-sizing: border-box;
+    background-color: #fff;
+    border: 1px solid #eee;
+}
+
+.black-box {
+    background-color: #000;
+}
+
+.button-bar {
+    flex: auto;
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: flex-start;
+}
+
+button {
     background-color: #eee;
-    border: 1px solid #666;
+    border: none;
+    padding: 10px 15px;
 }
