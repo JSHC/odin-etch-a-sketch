@@ -6,12 +6,13 @@ body {
 }
 
 h2 {
-    margin: 10px;
+    margin: 0 0 8px;
+    padding: 0;
 }
 
 .grid-container {
     flex: auto;
-    border: 1px solid #222;
+    border: 2px solid #408de4;
     width: 800px;
     height: 800px;
     display: grid;
@@ -32,12 +33,19 @@ h2 {
 .button-bar {
     display: flex;
     margin-bottom: 10px;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 button {
-    background-color: #eee;
+    background-color: #408de4;
     border: none;
-    padding: 10px 15px;
+    padding: 8px 15px;
     margin: 0px 5px;
+    color: #fff;
+    font-weight: 800;
+}
+
+.footer {
+    font-size: 12px;
+    padding: 5px;
 }
